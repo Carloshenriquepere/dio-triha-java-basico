@@ -1,5 +1,12 @@
+import service.ContaService;
+
+
 public class ContaTerminal {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        ContaService service = new ContaService();
+
+        service.contaBancaria();
     }
 }
